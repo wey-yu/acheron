@@ -1,8 +1,5 @@
 const mosca = require("mosca");
 const server = new mosca.Server({
-  http: {
-    port: 8080,
-    bundle: true,
-    static: './'
-  }
+  port: 8080
 });
+console.log("Archeron is listening")
