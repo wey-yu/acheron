@@ -1,0 +1,9 @@
+{
+  "build": {
+    "type": "maven", "goal": "package -DskipTests"
+  },
+  "deploy": {
+    "type": "jar",
+    "jarName": "target/web-app-1.0-SNAPSHOT-fat.jar"
+  }
+}
